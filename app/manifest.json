@@ -5,7 +5,7 @@
     "description": "This wallet resolve blockchain issue",
     "browser_action": {
         "default_title": "Chrome Wallet",
-        "default_popup": "index.html"
+        "default_popup": "contents/index.html"
     },
     "permissions": ["storage"]
 }

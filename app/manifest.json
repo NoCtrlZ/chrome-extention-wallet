@@ -1,0 +1,11 @@
+{
+    "name": "Browser Governance Wallet",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "description": "This wallet resolve blockchain issue",
+    "browser_action": {
+        "default_title": "Chrome Wallet",
+        "default_popup": "index.html"
+    },
+    "permissions": ["storage"]
+}

@@ -35,10 +35,9 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx}": [
+    "*.{js,ts,tsx}": [
       "prettier . --write",
-      "eslint --fix . --ext .ts,.tsx",
-      "git add"
+      "eslint --fix . --ext .ts,.tsx,.js"
     ]
   },
   "license": "MIT"

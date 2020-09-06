@@ -10,6 +10,8 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
